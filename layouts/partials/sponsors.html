@@ -1,0 +1,28 @@
+{{ if .Site.Data.homepage.sponsors.enable }}
+<section id="sponsors" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      {{ .Site.Data.homepage.sponsors.title }}
+    </h2>
+    <div class="row row--padded rad-animation-group rad-fade-down">
+      <div class="col-12">
+        <div class="sponsors">
+          {{ range .Site.Data.homepage.sponsors.sponsors }}
+          <div class="sponsors__item">
+            <a href="#">
+              <img
+                class="lozad img-responsive"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                data-src="{{ .logo.x | absURL }}"
+                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+                alt="{{ .alt }}"
+              />
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
