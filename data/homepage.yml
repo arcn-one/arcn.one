@@ -1,0 +1,280 @@
+# head
+head:
+  title: ARC
+
+# showcase
+showcase:
+  enable: true
+  title: "Welcome to ARC"
+  subtitle: ""
+  description: "Driving Sustainability Through Education, Enterprise, Disaster Management, and R&D"
+  image:
+    x: ""
+    _2x: ""
+  imageMobile:
+    x: ""
+
+  learnMore:
+    icon: "icon-smile-fill"
+    btnText: "Learn More"
+    URL: "#about"
+
+  socialLinks:
+    - icon: "github"
+      URL: "https://github.com/arcn-one/"
+
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/company/arcn-one/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/arcn.one/"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/arcn.one/"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/arcn_one/"
+
+    - icon: "youtube"
+      URL: "#"
+
+# about
+about:
+  enable: true
+  title: "About Us"
+  content: '<p class="lead">
+    Our organization is dedicated to promoting sustainability through enterprise, research, education, and disaster management. We believe in the power of collective action and the importance of individual commitment towards a sustainable future.
+    </p>
+    <p class="lead">
+    Join us on our journey towards a sustainable future. Together, we can make a significant difference.
+    </p>'
+  learnMore:
+    icon: "icon-smile-fill"
+    btnText: "Learn More"
+    URL: "#"
+  joinUs:
+    icon: "icon-arrow-right"
+    btnText: "Join Us"
+    URL: "#"
+  image:
+    x: ""
+    _2x: ""
+
+# missionVision
+missionVision:
+  enable: true
+  title: "Values"
+  description: "We envision a world where enterprise, R&D, education, and sustainable development are seamlessly integrated to drive progress and enhance our environment and society. We aspire to be a catalyst for change, fostering collective action and individual commitment towards sustainability. Our activities are designed to span across different domains, ensuring comprehensive coverage and maximum impact. Whether undertaking innovative projects, conducting impactful research, providing essential education, or responding effectively to crises, we are always ready to step forward."
+  items:
+    - subtitle: "Mission"
+      statement: "To drive sustainable progress and enhance our environment and society."
+    
+    - subtitle: "Vision"
+      statement: "To lead the global shift towards a sustainable future."
+      
+# timeline
+timeline:
+  enable: true
+  title: "Timeline"
+  description: "This timeline represents a chronological sequence of events, providing a visual representation of our progress and key milestones. Each milestone is a celebration of our community. We appreciate all the support we have received and would like to extend a special thank you as we move into the future."
+
+  items:
+    - event: "ARC Founded"
+      location: "Sri Lanka"
+      date: "Aug 12, 2023"
+
+# sponsors
+#sponsors:
+# title: "Sponsors"
+# enable: true
+#
+# sponsors:
+#   - logo:
+#       x: "img/clients/asgardia.png"
+#       _2x: "img/clients/asgardia@2x.png"
+#     alt: "Asgardia"
+#
+#   - logo:
+#       x: "img/clients/earth-2.png"
+#       _2x: "img/clients/earth-2@2x.png"
+#     alt: "Earth 2.0"
+#
+#   - logo:
+#       x: "img/clients/goldline.png"
+#       _2x: "img/clients/goldline@2x.png"
+#     alt: "Goldline"
+#
+#   - logo:
+#       x: "img/clients/kanba.png"
+#       _2x: "img/clients/kanba@2x.png"
+#     alt: "Kanba"
+#
+#   - logo:
+#       x: "img/clients/zoo-tv.png"
+#       _2x: "img/clients/zoo-tv@2x.png"
+#     alt: "Zoo"
+#
+#   - logo:
+#       x: "img/clients/ztos.png"
+#       _2x: "img/clients/ztos@2x.png"
+#     alt: "Ztos"
+#
+# partners
+#partners:
+# title: "Partners"
+# enable: true
+#
+# partners:
+#   - logo:
+#       x: "img/clients/asgardia.png"
+#       _2x: "img/clients/asgardia@2x.png"
+#     alt: "Asgardia"
+#
+#   - logo:
+#       x: "img/clients/earth-2.png"
+#       _2x: "img/clients/earth-2@2x.png"
+#     alt: "Earth 2.0"
+#
+#   - logo:
+#       x: "img/clients/goldline.png"
+#       _2x: "img/clients/goldline@2x.png"
+#     alt: "Goldline"
+#
+#   - logo:
+#       x: "img/clients/kanba.png"
+#       _2x: "img/clients/kanba@2x.png"
+#     alt: "Kanba"
+#
+#   - logo:
+#       x: "img/clients/zoo-tv.png"
+#       _2x: "img/clients/zoo-tv@2x.png"
+#     alt: "Zoo"
+#
+#   - logo:
+#       x: "img/clients/ztos.png"
+#       _2x: "img/clients/ztos@2x.png"
+#     alt: "Ztos"
+
+# projects
+projects:
+  title: "Projects"
+  enable: true
+
+  work:
+    - title: "Early Warning System for Adverse Weather"
+      description: "In order to aid with disaster management, early warning systems must be in place. With this system in place ARC will be able to better predict adverse weather and support affected communities better."
+      button:
+        icon: "icon-smile-fill"
+        btnText: "Learn More"
+        URL: "#"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Source Code"
+        URL: "https://github.com/arcn-one/weather-app-python-backend"
+      image:
+        x: "img/work/tech-project.jpg"
+        _2x: "img/work/tech-project.jpg"
+      is_even: false
+
+    - title: "Monthly Beach Clean Up"
+      description: "Monthly beach cleaning."
+      button:
+        icon: "icon-smile-fill"
+        btnText: "Learn More"
+        URL: "#"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Volunteer"
+        URL: "#"
+      image:
+        x: ""
+        _2x: ""
+        x: "img/work/tech-project.jpg"  #x: "image.jpg"
+        _2x: "img/work/tech-project.jpg" #_2x: "image@2x.jpg"
+      is_even: true
+
+    - title: "Learning Platform"
+      description: "The best way to give back to the community sustainably by effectively equipping individuals with basic skills."
+      button:
+        icon: "icon-smile-fill"
+        btnText: "More Info"
+        URL: "#"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Visit Site"
+        URL: "#"
+      image:
+        x: "img/work/web-project.jpg"
+        _2x: "img/work/web-project.jpg"
+      is_even: false
+
+    - title: "Hawk"
+      description: "A modern instant messaging platform."
+      button:
+        icon: "icon-smile-fill"
+        btnText: "Learn More"
+        URL: "#"
+      button2:
+        icon: "icon-arrow-right"
+        btnText: "Download"
+        URL: "#"
+      image:
+        x: "img/work/tech-project.jpg"
+        _2x: "img/work/tech-project.jpg"
+      is_even: true
+
+# testimonial
+#testimonial:
+# enable: true
+# title: "Testimonials"
+# items:
+#   - name: "Daniel Jordan"
+#     position: "Phonet, CEO"
+#     content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+#     image:
+#       x: "img/testimonials/daniel-jordan.jpg"
+#       _2x: "img/testimonials/daniel-jordan@2x.jpg"
+#
+#   - name: "Jonathan Peters"
+#     position: "Textic, CEO"
+#     content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+#     image:
+#       x: "img/testimonials/jonathan-peters.jpg"
+#       _2x: "img/testimonials/jonathan-peters@2x.jpg"
+#
+#   - name: "Antonio Willis"
+#     position: "Cyberse, CEO"
+#     content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+#     image:
+#       x: "img/testimonials/antonio-willis.jpg"
+#       _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+#contact:
+# enable: true
+# title: "Contact"
+# form:
+#   action: "#"
+#   full_name: "Full Name"
+#   email: "Email Address"
+#   message: "Type Your Message Here"
+# phone:
+#   title: "Phone Number"
+#   number: ""
+# email:
+#   title: "Email"
+#   email: '<a href="mailto:hello@arcn.one">hello@arcn.one</a>'
+# address:
+#   title: "Address"
+#   address: "ARC CLG<br />"
+# button:
+#   icon: "icon-mail-fill"
+#   btnText: "Send Message"
+
+# newsletter
+#newsletter:
+# enable: false
+# title: "Monthly Newsletter"
+# success_message: "Successfully subscribed"
+# error_message: "Error while subscribing."
+# note: "We'll never share your email with anyone else."

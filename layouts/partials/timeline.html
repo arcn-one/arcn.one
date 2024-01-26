@@ -1,0 +1,23 @@
+{{ if .Site.Data.homepage.timeline.enable }}
+<section id="timeline" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                {{ range .Site.Data.homepage.timeline.items }}
+                <div class="timeline">
+                    <div class="timeline__date">{{ .date }}</div>
+                    <div class="timeline__event">{{ .event }}</div>
+                    <div class="timeline__location">{{ .location }}</div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2>{{ .Site.Data.homepage.timeline.title }}</h2>
+                <p class="lead">
+                    {{ .Site.Data.homepage.timeline.description }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

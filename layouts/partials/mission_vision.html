@@ -1,0 +1,26 @@
+{{ if .Site.Data.homepage.missionVision.enable }}
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.missionVision.title }}</h2>
+                <p class="lead">
+                    {{ .Site.Data.homepage.missionVision.description | safeHTML }}
+                </p>
+                <div class="row pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.missionVision.items }}
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="missionVision">
+                            <div class="missionVision__subtitle">{{ .subtitle }}</div>
+                            <div class="missionVision__statement">
+                                {{ .statement }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
